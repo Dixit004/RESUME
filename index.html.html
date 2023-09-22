@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        .first{
+            background-color: skyblue;
+        }
+        .first img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .second{
+            background-color: rgb(231, 241, 241);
+        }
+        .second h1{
+            font-size: 3rem;
+            color:maroon;
+        }
+        .tb{
+            color:green;
+        }
+        .tr{
+            font-size: 1.3rem;
+        }
+        .uk{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid row">
+        <div class="first col-md-4">
+            <img src="data:image/jpeg;base64,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" alt="img" class="m-3"><hr>
+
+            <h2>CONTENT</h2>
+            <ul>
+                <li>
+                    phone number
+                    <p>+91 0000000000</p>
+                </li>
+                <li>
+                    Email
+                    <p>
+                       patidardixit@gmail.com
+                    </p>
+                </li>
+                <li>
+                    address
+                    <p>ahmedabad-382468</p>
+                </li>
+            </ul>
+            <h2>EDUCATION</h2>
+            <UL>
+                <li>school 1</li>
+                <p>june-2007-Dec-2013, earth school, zundal </p>
+                <li>school 2</li>
+                <p>earth school, zundal</p>
+                <li>Collage</li>
+                <p>ganndhinagar insitute of technology, ganndhinagar</p>
+            </UL>
+            <h2>HOBBIES</h2>
+            <p>playing cricket , football, and music</p>
+        </div>
+        <div class="second col-md-8">
+            <h1 class="mt-4 "><u>DIXIT PATIDAR</u></h1>
+            <h2 class="mt-5 tb">ABOUT ME</h2>
+            <p class="mt-2 "><strong>- After graduating from college with an engineering degree, the next step is to pursue your career. To start applying for engineering jobs, create an effective resume displaying your relevant skills, experience and education in an easy-to-read format. Understanding how to make a positive first impression on potential employers and show them you're a great candidate through an effective resume can be a helpful way to secure employment.</strong></p>
+
+            <h2 class="tb">PROJECT</h2>
+            <li class="tr"><strong>WORK 1</strong></li>
+            <P>create a website of online shooping company.</P>
+
+            <li class="tr"><strong>WORK 2</strong></li>
+            <P>My second project is amazone simple clone. the include is navigation baar,  serching window and all product using for HTML and CSS</P>
+
+            <li class="tr"><strong>WORK 3</strong></li>
+            <p>my third project is clothes shooping website. the include is sign in button and all the content.</p>
+
+            <h2 class="tb">SKILL</h2>
+            <ul>
+                <li>
+                    HTML
+                </li>
+                <LI>
+                    CSS
+                </LI>
+                <LI>
+                    Bootstrap
+                </LI>
+                <li>
+                    ui
+                </li>
+            </ul>
+            <h2 class="tb">SOCIAL MEDIA</h2>
+            <p>instagram:- <a href="https://www.instagram.com/" class="uk">click my profile</a></p>
+            <p>facebook:- <a href="https://www.facebook.com/" class="uk">click my profile</a></p>
+        </div>
+    </div>
+</body>
+</html>
